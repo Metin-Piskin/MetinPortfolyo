@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    padding: 10px;
+    background-color: #1C1C22;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.title{
+    color: #fff;
+    margin-left: 5px;
+}
+.image{
+    width: 76px;
+    height: 66px;
+    justify-self: center;
+
+    
+}

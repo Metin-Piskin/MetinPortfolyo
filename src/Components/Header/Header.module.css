@@ -1,0 +1,18 @@
+.container{
+    color: #fff;
+   
+    margin-left: 85px;
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title{
+    font-size: 27px;
+    font-weight: 900;
+}
+.text{
+    font-weight: lighter;
+    font-size: 13px;
+}
