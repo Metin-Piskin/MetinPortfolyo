@@ -20,6 +20,8 @@
 .text{
     display: inline-block;
     color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .skillcontainer{
     display: flex;

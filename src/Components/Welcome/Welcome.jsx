@@ -1,15 +1,16 @@
 import React from "react";
 import style from "./Welcome.module.css";
-import Behzat from "../../Assets/Behzat.jpg";
+import Metin from "../../Assets/Metin.png";
+
 const Welcome = () => {
   return (
     <div className={style.container}>
       <div className={style.textdiv}>
-        <text className={style.text}>Hello I am Metin</text>
+        <text className={style.text}>Hello I am Metin P.</text>
         <div> React - React Native</div>
         <div>Developer</div>
       </div>
-      <img alt="Behzat" src={Behzat} />
+      <img className={style.Avatar} alt="Metin" src={Metin} />
     </div>
   );
 };

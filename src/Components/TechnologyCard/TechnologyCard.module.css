@@ -1,22 +1,25 @@
-.container{
+.container {
     display: flex;
-    padding: 10px;
-    background-color: #1C1C22;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 30px;
-    justify-items: center;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    max-width: 200px; /* Kartın maksimum genişliği */
+    margin: 10px; /* Kartlar arası boşluk */
+    background-color: #1C1C22;
+    padding: 10px;
+    border-radius: 10px;
     
-}
-.title{
-    color: #fff;
-    margin-left: 5px;
-}
-.image{
-    width: 76px;
+  }
+  
+  .image {
+    width: 56px;
     height: 66px;
-    justify-self: center;
-
-    
-}
+    border-radius: 10px; /* İsteğe bağlı: Kenar yuvarlatma */
+  }
+  
+  .title {
+    margin-top: 10px; /* İsteğe bağlı: Başlık ile resim arasındaki boşluk */
+    word-wrap: break-word; /* Başlığın kartın dışına çıkmasını engeller */
+    color: #fff;
+  }
+  

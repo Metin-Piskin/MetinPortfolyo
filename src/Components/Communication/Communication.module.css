@@ -1,0 +1,40 @@
+.Container{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.Strip{
+    background: linear-gradient(to right, #B16CEA ,#FF5E69 ,#FF8A56,#FFA84B);
+    width: 100%;
+    height: 3px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.İnnerContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Title{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.LogosContainer{
+    display: flex;
+}
+.LogoContainer{
+    border-style: solid;
+    border-color:  #B16CEA #FF5E69 #FF8A56#FFA84B;
+    margin: 10px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Logo{
+    width: 26px;
+    height: 26px;
+    padding: 10px;
+}

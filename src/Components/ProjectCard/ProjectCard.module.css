@@ -1,0 +1,54 @@
+.Container{
+    background-color: #1C1C22;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 174px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.BannerContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Banner{
+    width: 110px;
+    height: 110px;
+}
+.Title{
+    color: #fff;
+    text-align: center;
+}
+.TechnologysContainer{
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.Technologys{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    background: linear-gradient(to right, #B16CEA ,#FF5E69 ,#FF8A56,#FFA84B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 8px;
+    text-align: center;
+}
+.İconContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: flex-start;
+}
+.Urlİcon{
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+}

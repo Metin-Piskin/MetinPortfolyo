@@ -20,3 +20,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.Avatar{
+    width: 445px;
+    height: 445px;
+    border-radius: 500px;
+}

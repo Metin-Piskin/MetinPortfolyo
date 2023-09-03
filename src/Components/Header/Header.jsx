@@ -3,7 +3,7 @@ import style from './Header.module.css'
 const Header = () => {
   return (
     <div className={style.container}>
-      <h4 className={style.title}>Metin</h4>
+      <h4 className={style.title}>Metin P.</h4>
       <text className={style.text}>Welcome</text>
       <text className={style.text}>About</text>
       <text className={style.text}>Technology</text>
