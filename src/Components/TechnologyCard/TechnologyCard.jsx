@@ -3,7 +3,9 @@ import style from "./TechnologyCard.module.css";
 const TechnologyCard = ({ title, img }) => {
   return (
     <div className={style.container}>
-      <img className={style.image} src={img} alt={title} />
+      <div className={style.imagecontainer}>
+        <img className={style.image} src={img} alt={title} />
+      </div>
       <div className={style.title}>{title}</div>
     </div>
   );

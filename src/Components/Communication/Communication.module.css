@@ -9,6 +9,7 @@
     margin-top: 60px;
     margin-bottom: 60px;
     border-radius: 5px;
+    
 }
 .İnnerContainer{
     display: flex;
@@ -32,6 +33,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #1C1C22;
 }
 .Logo{
     width: 26px;

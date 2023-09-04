@@ -10,16 +10,20 @@
     border-radius: 10px;
     
   }
-  
+  .imagecontainer{
+    width: 100px;
+    height: 66px;
+    
+  }
   .image {
     width: 56px;
     height: 66px;
-    border-radius: 10px; /* İsteğe bağlı: Kenar yuvarlatma */
+    
   }
-  
   .title {
     margin-top: 10px; /* İsteğe bağlı: Başlık ile resim arasındaki boşluk */
     word-wrap: break-word; /* Başlığın kartın dışına çıkmasını engeller */
     color: #fff;
+    text-align: center;
   }
   

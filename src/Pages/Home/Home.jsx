@@ -85,7 +85,7 @@ const Home = () => {
       >
         {IndustryKnowledgeData.map((e) => {
           return (
-            <IndustryKnowledgeCard img={e.image} title={e.title} key={e.id} />
+            <TechnologyCard img={e.image} title={e.title} key={e.id} />
           );
         })}
       </div>

@@ -237,7 +237,7 @@ export const ProjectData = [
                 libraryURL: 'https://www.npmjs.com/package/react-native-vector-icons'
             }
         ],
-        video: 'https://user-images.githubusercontent.com/85956297/219853369-bc0ba4d0-68ab-45ef-b34b-8b2f4b524a19.gif',
+        video: null,
     },
     {
         id: 2,
@@ -271,7 +271,7 @@ export const ProjectData = [
                 libraryURL: 'https://www.npmjs.com/package/react-native-vector-icons'
             }
         ],
-        video: 'https://user-images.githubusercontent.com/85956297/218676779-080624d5-d508-4774-914a-3e5cb1a0f314.gif',
+        video: null,
     },
     {
         id: 3,
@@ -312,7 +312,7 @@ export const ProjectData = [
                 libraryURL: 'https://www.npmjs.com/package/react-native-vector-icons'
             }
         ],
-        video: 'https://user-images.githubusercontent.com/85956297/222416212-89cce7a9-8664-4648-acec-3a07af6ad7a0.gif',
+        video: null,
     },
     {
         id: 4,
