@@ -8,7 +8,6 @@ import Welcome from "../../Components/Welcome";
 import About from "../../Components/About";
 import Strip from "../../Components/Strip";
 import TechnologyCard from "../../Components/TechnologyCard";
-import IndustryKnowledgeCard from "../../Components/IndustryKnowledgeCard";
 import ProjectCard from "../../Components/ProjectCard";
 import Communication from "../../Components/Communication";
 

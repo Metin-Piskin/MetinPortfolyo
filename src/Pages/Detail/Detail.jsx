@@ -4,6 +4,7 @@ import ReactPlayer from "react-player";
 import { ProjectData } from "../../Data/Data";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { BiChevronRight, BiChevronDown } from "react-icons/bi";
 
 import style from "./Detail.module.css";
 import Communication from "../../Components/Communication";
@@ -28,11 +29,17 @@ const Detail = () => {
 
   return (
     <>
+      <div className={style.headercontainer}>
+        <div className={style.aboutinnercontainer}>
+          <img className={style.banner} alt="banner" src={getData?.banner} />
+          <div className={style.title}>{getData?.title}</div>
+        </div>
+        <div className={style.headerStrip}></div>
+      </div>
       <div className={style.descriptioncontainer}>
         <div className={style.aboutcontainer}>
-          <div className={style.aboutinnercontainer}>
-            <img className={style.banner} alt="banner" src={getData?.banner} />
-            <div className={style.title}>{getData?.title}</div>
+          <div className={style.Explanationcontainer}>
+            <h2 className={style.ExplanationTitle}>Explanation</h2>
           </div>
           <p className={style.description}>{getData?.description}</p>
           <div className={style.Githubgoogleplaycontainer}>
@@ -84,28 +91,47 @@ const Detail = () => {
           })}
         </Carousel>
       </div>
-      <Strip />
-      <div
-        className={`accordion-header ${isOpen ? "open" : ""}`}
-        onClick={toggleAccordion}
-      >
-        <h1>Library</h1>
-        <span className="icon">{isOpen ? "-" : "+"}</span>
+      <div className={style.headerStrip} style={{marginTop:55}}></div>
+
+      <div className={style.ReactPlayer}>
+        <div className={style.librarycontainer}>
+          <div
+            className={
+              isOpen ? style.libraryopentitle : style.libraryclosetitle
+            }
+            onClick={toggleAccordion}
+          >
+            <h1 className={style.librarytext}>Library</h1>
+            <span className="icon">
+              {isOpen ? (
+                <BiChevronDown className={style.BiChevronDown} />
+              ) : (
+                <BiChevronRight className={style.BiChevronRight} />
+              )}
+            </span>
+          </div>
+          <div
+            className={
+              isOpen ? style.libraryopencontainer : style.libraryclosecontainer
+            }
+          >
+            {isOpen &&
+              getData?.library.map((e) => {
+                return (
+                  <a className={style.librarylistcontainer} href={e.libraryURL}>
+                    <li className={style.librarylisttext}>{e.librarytitle}</li>
+                  </a>
+                );
+              })}
+          </div>
+        </div>
+        <ReactPlayer
+          url={getData?.video}
+          controls // Oynatma kontrollerini göstermek için
+          width="250px"
+          height="auto"
+        />
       </div>
-      {isOpen &&
-        getData?.library.map((e) => {
-          return (
-            <a href={e.libraryURL}>
-              <div>{e.librarytitle}</div>
-            </a>
-          );
-        })}
-      <ReactPlayer
-        url={getData?.video}
-        controls // Oynatma kontrollerini göstermek için
-        width="250px"
-        height="auto"
-      />
       <Communication />
     </>
   );
