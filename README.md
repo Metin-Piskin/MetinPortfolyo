@@ -1,1 +1,3 @@
-<img  src="https://github.com/Metin-Piskin/MetinPortfolyo/assets/85956297/2c68cca5-6c3e-4ba9-baee-1d11433d5e6f">
+<div>
+  <img  src="https://github.com/Metin-Piskin/MetinPortfolyo/assets/85956297/3ebc4af6-8abd-4ac4-9cf1-de6d6c5ba3a4">
+</div>
